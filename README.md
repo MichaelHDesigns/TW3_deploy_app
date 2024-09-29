@@ -1,3 +1,8 @@
+# Devilking6105 Web4 Portfolio
+
+This application serves as the first web4 profile for Devilking6105. We encourage you to follow along as we build the next generation of the "web"
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
