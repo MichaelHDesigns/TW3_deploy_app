@@ -1,0 +1,10 @@
+
+Deployment Report
+=================
+Date: 2024-09-29T07:52:40.924Z
+
+Total time taken: 36.58 seconds
+Total cost of deployment: 0.161980705804175139 MATIC
+Total size of files uploaded to contract: 0.00 KB
+Total size of files uploaded to Pinata: 0.00 KB
+Deployed Contract Address: 0xe9Cec4C45845e98c6e367ee6E821C897034D3E39

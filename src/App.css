@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Light background for neumorphism */
+  color: #fff;
+  font-weight: bold;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #000; /* White background for header */
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px #6a5acd, 
+              -8px -8px 20px #000; /* Neumorphic shadow */
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #6a5acd; /* Vibrant purple */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+a:hover {
+  background-color: #6a5acd; /* Hover effect */
+  color: white;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  color: #6a5acd; /* Vibrant purple */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #6a5acd; /* Hover effect */
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: #000; /* White background for sections */
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px; /* Adjusted for larger containers */
+  box-shadow: 8px 8px 20px rgba(106, 90, 205, 0.5), 
+              -8px -8px 20px rgba(255, 255, 255, 0.5); /* Neumorphic shadow */
+  border: 2px solid rgba(106, 90, 205, 0.7); /* Vibrant border */
+}
+
+section > * {
+  background: #000; /* Light background for inner content */
+  border-radius: 15px;
+  padding: 15px;
+  /* Removed border and shadow to avoid double borders */
+  /* box-shadow: inset 4px 4px 10px rgba(255, 255, 255, 0.5), 
+              inset -4px -4px 10px rgba(106, 90, 205, 0.2); */
+}
+
+img {
+  border-radius: 50%; /* Rounded images */
+  max-width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.contact-link {
+  color: #6a5acd; /* Vibrant purple */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px; /* Adjust padding as needed */
+  border-radius: 10px; /* Rounded corners */
+  transition: background 0.3s, color 0.3s; /* Smooth transition */
+  font-size: 20px; /* Set the icon size here */
+}
+
+.contact-link:hover {
+  background-color: #6a5acd; /* Hover background */
+  color: white; /* Hover text color */
+}
+
+.button {
+  color: #6a5acd; /* Vibrant purple */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #6a5acd; /* Hover effect */
+  color: white;
+}
+
+.button:disabled {
+  color: #6a5acd; /* Keep original color for disabled buttons */
+  cursor: not-allowed; /* Show not-allowed cursor for disabled */
+  background: transparent; /* Keep background transparent for disabled buttons */
+}
+
+.button:disabled:hover {
+  background-color: #6a5acd; /* Hover effect */
+  color: white;
+}

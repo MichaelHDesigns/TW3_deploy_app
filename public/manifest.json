@@ -1,0 +1,25 @@
+{
+  "short_name": "Devilking6105",
+  "name": "Devilking6105 Portfolio",
+  "icons": [
+    {
+      "src": "devil.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
